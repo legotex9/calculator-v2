@@ -1,0 +1,28 @@
+class area():
+	pi = 3.14159265359
+	def square (self, w, l, a):
+		print("w =")
+		w = float(input())
+		print("l =")
+		l = float(input())
+		a = w*l
+		print("area = " + a)
+	def triangle(self, w, l, a):
+		w = float(input())
+		l = float(input())
+		a = (1/2*w)*l
+		print("area = " + a)
+	def circle(self, r, d, a):
+		pi = 3.14159265359
+		print("radius or diamter?(r/d)")
+		rd = input()
+		if rd == "r":
+			print("r =")
+			r = float(input())
+			a = pi * (r**2)
+			print ("a = " + a)
+		else:
+			print("r =")
+			d = float(input())
+			a = pi * ( (1/2 * d) ** 2)
+			print ("a = " + a)
