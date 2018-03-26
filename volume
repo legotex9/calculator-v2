@@ -1,0 +1,48 @@
+class volume():
+	pi = float(3.14159265359)
+	#cube
+	def cube(self,  b):
+		print ("b = ")
+		b = float(input())
+		v = b**3
+		print("v = " + v)
+	#rectangle
+	def rectangularPrisim (self, l, w, h):
+		print("l = ")
+		l = float(input())
+		print("w = ")
+		w = float(input())
+		print ("h = ")
+		h = float(input())
+		v = (l*w)*h
+		print("v = " + v)
+	#triangular prisim
+	def triangularPrisim (self, b, h1, h2):
+		print("b = ")
+		b = float(input())
+		print("h1 = ")
+		h1 = float(input())
+		print("h2 = ")
+		h2 = float(input())
+		v = ((b/h1)/2)*h2
+		print ("v = " + v)
+	#pyrimad
+	def pyrimadTri (self, l, h1, h2):
+		print("b = ")
+		l = float(input())
+		print("h1 = ")
+		h1 = float(input())
+		print("h2 = ")
+		h2 = float(input())
+		v = ((l*h1)/2*h2)/3
+		print("v = " + v)
+	def pyrimadSqr (self, l, w, h):
+		print("l = ")
+		l = float(input())
+		print("h = ")
+		h = float(input())
+		print("w = ")
+		w = float(input())
+		v = (l*w*h)/3
+		print("v = " + v)
+		
